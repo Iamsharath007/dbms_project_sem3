@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian States Pie Charts</title>
+    <!-- Add ECharts library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+  </head>
+  <body>
+    <!-- Dropdown menu for selecting states -->
+    <select id="stateSelect" onchange="updateCharts()">
+      <!-- Populate options dynamically -->
+    </select>
+
+    <!-- Container for the charts and text -->
+    <div id="charts-container" style="display: flex; flex-wrap: wrap"></div>
+
+    <script>
+      let indianData;
+
+      // Fetch data from the URL
+      fetch("http://127.0.0.1:8000/statewisedistricts")
+        .then((response) => response.json()) // Parse the JSON response
+        .then((data) => {
+          // Store data in global variable
+          indianData = data;
+
+          // Populate dropdown options
+          const select = document.getElementById("stateSelect");
+          data.forEach((state) => {
+            const option = document.createElement("option");
+            option.value = state.state;
+            option.text = state.state;
+            select.appendChild(option);
+          });
+
+          // Initial chart rendering
+          updateCharts();
+        })
+        .catch((error) => {
+          // Handle any errors that occur during the fetch
+          console.error("Error fetching data:", error);
+        });
+
+      // Function to update charts based on selected state
+      function updateCharts() {
+        const selectedState = document.getElementById("stateSelect").value;
+        const selectedData =
+          indianData.find((data) => data.state === selectedState)?.distirct ||
+          [];
+        // Sample data for the pie charts 
+        const sampleData = selectedData.map((district) => ({
+          name: district,
+          value: Math.floor(Math.random() * 100),
+        }));
+
+        // Clear existing charts
+        document.getElementById("charts-container").innerHTML = "";
+
+        // Create a chart container
+        const chartContainer = document.createElement("div");
+        chartContainer.style.width = "100%";
+        chartContainer.style.height = "400px"; // Adjusted height
+        document.getElementById("charts-container").appendChild(chartContainer);
+
+        // Create a chart instance
+        const chart = echarts.init(chartContainer);
+
+        // Set chart options
+        const options = {
+          series: [
+            {
+              type: "pie",
+              radius: "50%",
+              data: sampleData,
+              label: {
+                fontSize: 10,
+              },
+            },
+          ],
+          tooltip: {
+            trigger: "item",
+            formatter: "{a} <br/>{b}: {c} ({d}%)",
+          },
+        };
+
+        // Set chart options
+        chart.setOption(options);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pressure Data Visualization</title>
+    <style>
+      /* Add your CSS styles here */
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .filters {
+        margin-bottom: 20px;
+      }
+
+      .chart-container {
+        position: relative;
+      }
+    </style>
+    <script>
+      // Sample data (replace this with your API response)
+      const pressureData = [
+        { state: "California", severity: "mild", gender: "male" },
+        { state: "California", severity: "mild", gender: "female" },
+        // More data...
+      ];
+
+      // Function to filter data based on selected state and severity
+      function filterData(state, severity) {
+        return pressureData.filter(
+          (item) => item.state === state && item.severity === severity
+        );
+      }
+
+      // Function to update the chart based on user selection
+      function updateChart() {
+        const selectedState = document.getElementById("state").value;
+        const selectedSeverity = document.getElementById("severity").value;
+
+        const filteredData = filterData(selectedState, selectedSeverity);
+
+        const maleCount = filteredData.filter(
+          (item) => item.gender === "male"
+        ).length;
+        const femaleCount = filteredData.filter(
+          (item) => item.gender === "female"
+        ).length;
+
+        const ctx = document.getElementById("pressureChart").getContext("2d");
+        const myChart = new Chart(ctx, {
+          type: "pie",
+          data: {
+            labels: ["Male", "Female"],
+            datasets: [
+              {
+                label: "Pressure Data",
+                data: [maleCount, femaleCount],
+                backgroundColor: ["#FF6384", "#36A2EB"],
+                borderWidth: 1,
+              },
+            ],
+          },
+        });
+      }
+
+      // Call the initial chart rendering
+      updateChart();
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pressure Data Visualization</h1>
+      <div class="filters">
+        <label for="state">Select State:</label>
+        <select id="state">
+          <!-- Add options for states here -->
+        </select>
+        <label for="severity">Select Severity:</label>
+        <select id="severity">
+          <option value="mild">Mild</option>
+          <option value="severe">Severe</option>
+          <option value="elevated">Elevated</option>
+        </select>
+        <button onclick="updateChart()">Update Chart</button>
+      </div>
+      <div class="chart-container">
+        <canvas id="pressureChart"></canvas>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
