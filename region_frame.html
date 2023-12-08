@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #4CAF50; /* Green background color */
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      color: #fff; /* White text color */
+    }
+
+    select {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    .dashboard-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 1200px;
+      margin-top: 20px;
+    }
+
+    .card {
+      box-sizing: border-box;
+      width: 48%;
+      min-width: 300px;
+      margin: 10px;
+      padding: 20px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .full-width-card {
+      width: 100%; /* Cover the full width of the container */
+    }
+
+    iframe {
+      width: 100%;
+      height: 50vh; /* Cover the full height of the viewport */
+      border: none;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <select id="severitySelector" onchange="changeSeverity()">
+      <option value="Ml">Mild</option>
+      <option value="Mo">Moderate</option>
+      <option value="Ext">Extreme</option>
+    </select>
+  </header>
+
+  <div class="dashboard-container">
+    <div class="card full-width-card" id="graph1">
+      <iframe id="iframeM" src="region_MlM.html" frameborder="0"></iframe>
+      <iframe id="iframeW" src="region_MlW.html" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script>
+    function changeSeverity() {
+      var selectedSeverity = document.getElementById('severitySelector').value;
+      var iframeM = document.getElementById('iframeM');
+      var iframeW = document.getElementById('iframeW');
+
+      // Update the src attribute based on the selected severity
+      iframeM.src = `region_${selectedSeverity}M.html`;
+      iframeW.src = `region_${selectedSeverity}W.html`;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,708 @@
+REGION,State_UT,State_ID,DISTRICT_NAME,TOT_WOMEN,TOT_MEN,WMl,WMo,WExt,MMl,MMo,MExT
+SOUTH,Andaman & Nicobar Islands,101,Nicobars,764,125,178,65,270,41,13.8,58.7
+SOUTH,Andaman & Nicobar Islands,101,North & Middle Andaman ,789,108,145,31,216,24,6.4,34.8
+SOUTH,Andaman & Nicobar Islands,101,South Andaman ,844,134,107,41,194,24,8.2,36
+SOUTH,Andhra Pradesh,102,Srikakulam ,780,100,99,46,173,14,5.5,22.9
+SOUTH,Andhra Pradesh,102,Vizianagaram ,853,134,110,56,215,20,8.6,33.7
+SOUTH,Andhra Pradesh,102,Visakhapatnam ,818,112,99,49,196,19,7.9,32.7
+SOUTH,Andhra Pradesh,102,East Godavari ,824,105,107,54,239,18,7.7,33.8
+SOUTH,Andhra Pradesh,102,West Godavari ,841,122,124,51,243,22,10.6,38.3
+SOUTH,Andhra Pradesh,102,Krishna ,820,119,110,35,197,22,6,33.9
+SOUTH,Andhra Pradesh,102,Guntur ,807,93,118,48,208,17,7.9,29.1
+SOUTH,Andhra Pradesh,102,Prakasam ,689,95,101,44,192,19,7.9,31.4
+SOUTH,Andhra Pradesh,102,Sri Potti Sriramulu Nello ,922,132,117,41,212,20,7.7,33.1
+SOUTH,Andhra Pradesh,102,Y.S.R. ,1017,140,139,58,236,25,9.7,38.3
+SOUTH,Andhra Pradesh,102,Kurnool ,908,139,166,46,245,31,10.3,44.1
+SOUTH,Andhra Pradesh,102,Anantapur ,868,146,107,74,203,24,11.2,38.9
+SOUTH,Andhra Pradesh,102,Chittoor ,828,121,89,45,188,20,7.2,32.7
+EAST,Arunachal Pradesh,103,Tawang ,924,137,161,108,280,35,12.5,49.8
+EAST,Arunachal Pradesh,103,West Kameng ,1122,167,139,48,222,37,11.7,51.3
+EAST,Arunachal Pradesh,103,East Kameng ,1002,130,141,44,196,29,7.8,37.7
+EAST,Arunachal Pradesh,103,Papum Pare ,1017,142,139,35,210,30,13.1,46.4
+EAST,Arunachal Pradesh,103,Upper Subansiri ,1092,147,194,64,278,37,15.4,55.2
+EAST,Arunachal Pradesh,103,Upper Siang ,901,133,144,84,235,27,14.2,42.2
+EAST,Arunachal Pradesh,103,Changlang ,1168,189,162,78,267,36,13.3,51.9
+EAST,Arunachal Pradesh,103,Lower Subansiri ,1094,167,187,83,281,42,17.3,61.2
+EAST,Arunachal Pradesh,103,Dibang Valley ,868,134,178,92,279,39,20.8,60.8
+EAST,Arunachal Pradesh,103,Lower Dibang Valley ,1090,173,182,88,279,43,21.7,66
+EAST,Arunachal Pradesh,103,Anjaw ,828,125,181,63,258,38,14.8,53.3
+EAST,Arunachal Pradesh,103,East Siang ,1157,161,208,98,344,42,16.1,61.3
+EAST,Arunachal Pradesh,103,Kra Daadi ,524,75,72,24,102,13,5.6,19.6
+EAST,Arunachal Pradesh,103,Kurung Kumey ,650,63,91,22,125,13,2.9,16.4
+EAST,Arunachal Pradesh,103,Lohit ,1129,193,167,56,249,34,13.4,51.3
+EAST,Arunachal Pradesh,103,Longding ,935,149,147,39,192,33,12.3,46.4
+EAST,Arunachal Pradesh,103,Namsai ,1156,171,203,89,313,32,13.4,48.1
+EAST,Arunachal Pradesh,103,Siang ,1106,154,165,96,269,32,15.6,48.5
+EAST,Arunachal Pradesh,103,Tirap ,934,138,156,72,236,31,11.2,43.5
+EAST,Arunachal Pradesh,103,West Siang ,1068,133,249,91,350,39,15.1,54.7
+EAST,Assam,104,Kokrajhar ,1052,144,119,56,187,19,6.9,28
+EAST,Assam,104,Goalpara ,1158,164,129,38,194,19,5.7,29.3
+EAST,Assam,104,Barpeta ,1163,159,112,46,209,16,4.8,26.5
+EAST,Assam,104,Morigaon ,1071,136,136,52,215,17,9.1,27.9
+EAST,Assam,104,Lakhimpur ,957,140,125,42,199,22,7.5,35
+EAST,Assam,104,Dhemaji ,989,148,100,45,158,26,7.9,35.7
+EAST,Assam,104,Tinsukia ,1062,155,102,49,181,19,8.4,29.9
+EAST,Assam,104,Dibrugarh ,1086,161,116,47,196,22,6.9,34.4
+EAST,Assam,104,Golaghat ,1028,129,110,71,211,18,8.1,28.3
+EAST,Assam,104,Dima Hasao ,1001,149,112,35,171,25,6,35
+EAST,Assam,104,Cachar ,1110,152,108,41,189,14,4.3,23.4
+EAST,Assam,104,Karimganj ,1170,160,105,30,193,18,4.3,27.5
+EAST,Assam,104,Hailakandi ,1057,130,129,61,230,20,7.3,31.7
+EAST,Assam,104,Bongaigaon ,1092,169,86,43,149,17,6.1,26.9
+EAST,Assam,104,Chirang ,1076,148,150,56,224,27,9.4,37.9
+EAST,Assam,104,Kamrup ,1021,138,123,40,227,15,5.1,26.4
+EAST,Assam,104,Kamrup Metropolitan ,926,165,76,24,158,19,4.6,33.5
+EAST,Assam,104,Nalbari ,1011,145,121,50,227,23,7.4,36
+EAST,Assam,104,Baksa ,1175,156,176,84,288,28,8.3,39
+EAST,Assam,104,Darrang ,1053,176,101,45,175,16,3.5,25.4
+EAST,Assam,104,Udalguri ,1088,151,109,76,214,24,6.2,34.1
+EAST,Assam,104,Biswanath ,1000,135,145,70,235,26,10.2,38.4
+EAST,Assam,104,Charaideo ,1117,166,104,58,203,21,5,29.7
+EAST,Assam,104,Dhubri ,1017,128,115,56,185,17,6.1,24.3
+EAST,Assam,104,Hojai ,1027,148,119,71,215,23,10.8,37.3
+EAST,Assam,104,Jorhat ,1019,148,146,72,264,25,9.5,39
+EAST,Assam,104,Karbi Anglong ,1042,156,114,68,209,23,10.2,35.6
+EAST,Assam,104,Majuli ,1052,146,115,65,207,22,8.8,34
+EAST,Assam,104,Nagaon ,1122,169,100,32,184,16,4.2,28.8
+EAST,Assam,104,Sivasagar ,1020,146,117,61,225,23,10,38
+EAST,Assam,104,Sonitpur ,1067,148,155,85,265,21,11.3,36.3
+EAST,Assam,104,South Salmara Mancachar ,1085,162,123,34,168,20,4.1,26.8
+EAST,Assam,104,West Karbi Anglong ,1065,146,120,45,181,25,4.8,32.4
+NORTH,Bihar,105,Pashchim Champaran ,1070,109,121,55,194,13,8.5,24.6
+NORTH,Bihar,105,Purba Champaran ,1142,87,104,45,185,12,5.9,20.5
+NORTH,Bihar,105,Sheohar ,886,104,90,32,137,15,4.6,21.6
+NORTH,Bihar,105,Sitamarhi ,1004,116,99,43,179,13,5.6,20.8
+NORTH,Bihar,105,Madhubani ,976,83,93,41,177,11,5.3,19.4
+NORTH,Bihar,105,Supaul ,1153,112,73,28,134,10,3.4,15.8
+NORTH,Bihar,105,Araria ,1122,124,56,33,135,11,3.8,19.6
+NORTH,Bihar,105,Kishanganj ,1116,111,95,40,194,14,5.6,25.2
+NORTH,Bihar,105,Purnia ,973,133,80,26,182,16,4.6,29.9
+NORTH,Bihar,105,Katihar ,945,107,57,38,160,9,3.1,19.1
+NORTH,Bihar,105,Madhepura ,1055,127,56,20,110,10,3.5,18.4
+NORTH,Bihar,105,Saharsa ,960,110,60,27,143,10,4.6,17
+NORTH,Bihar,105,Darbhanga ,1053,100,95,39,184,14,6.3,23.5
+NORTH,Bihar,105,Muzaffarpur ,1095,94,108,54,198,13,6.5,22.5
+NORTH,Bihar,105,Gopalganj ,1139,96,133,58,232,16,4.8,21.9
+NORTH,Bihar,105,Siwan ,1256,95,155,65,246,17,8.9,28.1
+NORTH,Bihar,105,Saran ,1229,137,103,41,206,17,3.6,26.5
+NORTH,Bihar,105,Vaishali ,1112,123,67,38,193,13,4.6,24.1
+NORTH,Bihar,105,Samastipur ,1061,118,75,44,168,11,5.1,19.3
+NORTH,Bihar,105,Begusarai ,1170,165,83,28,163,16,5.2,28
+NORTH,Bihar,105,Khagaria ,1072,125,80,24,139,12,3.9,20.2
+NORTH,Bihar,105,Bhagalpur ,1154,179,80,37,154,16,5.5,26.3
+NORTH,Bihar,105,Banka ,1098,147,117,53,191,18,7.9,27.7
+NORTH,Bihar,105,Munger ,1100,157,107,39,177,17,6.1,28.8
+NORTH,Bihar,105,Lakhisarai ,1222,147,81,42,150,14,3.1,20.3
+NORTH,Bihar,105,Sheikhpura ,1160,132,107,48,189,15,5.1,21.3
+NORTH,Bihar,105,Nalanda ,1151,146,94,38,154,14,5.3,20.5
+NORTH,Bihar,105,Patna ,942,143,77,23,152,14,3.4,21.2
+NORTH,Bihar,105,Bhojpur ,1213,181,100,33,168,19,3.2,26.2
+NORTH,Bihar,105,Buxar ,1295,158,119,36,180,12,3.1,16.5
+NORTH,Bihar,105,Kaimur (Bhabua) ,1167,146,92,39,143,15,5.3,21.9
+NORTH,Bihar,105,Rohtas ,1302,148,136,50,198,15,6.8,23.7
+NORTH,Bihar,105,Aurangabad ,1269,161,132,53,206,17,5.1,24.7
+NORTH,Bihar,105,Gaya ,1153,147,132,44,192,19,7,27.6
+NORTH,Bihar,105,Nawada ,1239,121,110,47,179,14,6.4,22.3
+NORTH,Bihar,105,Jamui ,1172,119,85,48,148,12,3.5,17.6
+NORTH,Bihar,105,Jehanabad ,1072,156,95,28,143,12,3.6,18.7
+NORTH,Bihar,105,Arwal ,1185,133,102,31,153,12,4.4,18.6
+NORTH,Chandigarh,106,Chandigarh,746,104,108,41,187,19,9,31.8
+EAST,Chhattisgarh,107,Koriya ,967,133,140,82,249,27,12.1,41.1
+EAST,Chhattisgarh,107,Jashpur ,945,136,163,98,269,30,15.7,46.8
+EAST,Chhattisgarh,107,Raigarh ,990,154,153,86,259,35,13.2,49.2
+EAST,Chhattisgarh,107,Korba ,1029,173,151,77,246,36,17.4,56.6
+EAST,Chhattisgarh,107,Janjgir - Champa ,1046,149,158,54,226,27,13.6,42.2
+EAST,Chhattisgarh,107,Kabeerdham ,1037,151,171,69,249,29,9.9,40
+EAST,Chhattisgarh,107,Rajnandgaon ,1030,172,190,83,286,35,12.5,48.6
+EAST,Chhattisgarh,107,Mahasamund ,1073,163,126,47,192,23,8.6,34.8
+EAST,Chhattisgarh,107,Dhamtari ,1152,151,150,62,241,26,9.5,37.6
+EAST,Chhattisgarh,107,Uttar Bastar Kanker ,1010,156,173,92,272,32,13.4,47.1
+EAST,Chhattisgarh,107,Narayanpur ,1146,164,153,42,216,26,6.8,34.7
+EAST,Chhattisgarh,107,Bijapur ,1087,166,105,38,163,27,7.5,35.8
+EAST,Chhattisgarh,107,Balod ,1006,164,161,80,252,30,14,45.3
+EAST,Chhattisgarh,107,Baloda Bazar ,1116,169,158,69,253,33,12.3,47.2
+EAST,Chhattisgarh,107,Balrampur ,995,128,154,92,251,26,12.7,40
+EAST,Chhattisgarh,107,Bastar ,1036,143,136,74,245,24,8.1,34.5
+EAST,Chhattisgarh,107,Bemetara ,1060,134,181,74,285,27,8.7,36.9
+EAST,Chhattisgarh,107,Bilaspur ,973,173,141,71,238,33,13.9,49.5
+EAST,Chhattisgarh,107,Dantewada ,1121,162,166,29,214,30,6,38.3
+EAST,Chhattisgarh,107,Durg ,1112,184,161,57,251,34,9.9,48.7
+EAST,Chhattisgarh,107,Gariyaband ,1044,159,162,59,236,28,10.5,40.8
+EAST,Chhattisgarh,107,Kodagaon ,1165,148,142,76,247,22,8.7,31.9
+EAST,Chhattisgarh,107,Mungeli ,963,119,168,72,252,24,9.6,34.8
+EAST,Chhattisgarh,107,Raipur ,1173,182,129,42,207,27,8.2,37.4
+EAST,Chhattisgarh,107,Sukma ,1218,173,128,32,176,27,3.1,31.3
+EAST,Chhattisgarh,107,Surajpur ,1024,135,170,74,256,28,12.4,41.7
+EAST,Chhattisgarh,107,Surguja ,950,133,158,93,271,31,16.6,49.8
+WEST,Dadra and Nagar Haveli & Daman and Diu,108,Diu ,978,101,96,31,177,10,4.9,17.9
+WEST,Dadra and Nagar Haveli & Daman and Diu,108,Daman ,733,152,69,33,135,20,7.1,30.2
+WEST,Dadra and Nagar Haveli & Daman and Diu,108,Dadra & Nagar Haveli ,1002,174,69,39,134,15,5.7,23.5
+WEST,Goa,109,North Goa ,975,148,107,40,266,23,8.2,41.8
+WEST,Goa,109,South Goa ,1055,165,143,32,293,22,6.1,41.3
+WEST,Gujarat,110,Kachchh ,1026,181,111,45,196,19,6.9,32.9
+WEST,Gujarat,110,Banas Kantha ,1049,157,83,31,150,14,6.8,24.6
+WEST,Gujarat,110,Patan ,1011,169,84,37,165,16,6,27.6
+WEST,Gujarat,110,Mahesana ,883,136,114,52,199,24,8.5,36.7
+WEST,Gujarat,110,Gandhinagar ,919,151,115,54,220,28,10.6,44.3
+WEST,Gujarat,110,Porbandar ,1018,169,89,31,161,19,4.4,27.4
+WEST,Gujarat,110,Amreli ,936,127,75,40,168,8,4,14.6
+WEST,Gujarat,110,Anand ,914,163,145,55,243,27,11.2,43.8
+WEST,Gujarat,110,Dohad ,1221,158,156,49,222,19,6,27.9
+WEST,Gujarat,110,Narmada ,1021,155,122,57,196,23,7.5,32.3
+WEST,Gujarat,110,Bharuch ,919,124,132,37,218,20,5.8,30.9
+WEST,Gujarat,110,The Dangs ,901,130,165,36,207,23,7.6,31.3
+WEST,Gujarat,110,Navsari ,991,162,147,54,235,24,9,35.7
+WEST,Gujarat,110,Valsad ,1031,159,160,53,245,32,11.4,46.5
+WEST,Gujarat,110,Surat ,986,195,151,48,231,33,7.5,44.1
+WEST,Gujarat,110,Tapi ,991,144,165,75,250,28,9.5,40.3
+WEST,Gujarat,110,Ahmadabad ,1010,155,85,33,187,13,5.4,25.1
+WEST,Gujarat,110,Aravali ,1078,187,127,74,226,29,9.1,41.2
+WEST,Gujarat,110,Bhavnagar ,950,145,93,39,191,16,5,26
+WEST,Gujarat,110,Botad ,1032,149,64,30,129,10,3.8,17.8
+WEST,Gujarat,110,Chhota Udaipur ,1035,173,125,59,200,22,6.6,30.2
+WEST,Gujarat,110,Devbhumi Dwarka ,1170,198,113,51,212,22,6.6,34.2
+WEST,Gujarat,110,Gir Somnath ,1158,185,75,38,162,14,5.6,22.7
+WEST,Gujarat,110,Jamnagar ,1042,165,86,33,188,12,4.8,24.8
+WEST,Gujarat,110,Junagadh ,963,164,122,54,224,24,6.2,34.1
+WEST,Gujarat,110,Kheda ,1029,183,144,65,247,31,7.9,44.9
+WEST,Gujarat,110,Mahisagar ,1017,168,101,42,165,18,5.3,24.7
+WEST,Gujarat,110,Morbi ,1119,182,104,47,205,16,6,27.5
+WEST,Gujarat,110,Panch Mahals ,1101,196,164,70,247,40,12.7,54
+WEST,Gujarat,110,Rajkot ,979,159,92,24,174,14,3.8,23
+WEST,Gujarat,110,Sabar Kantha ,1018,152,149,67,244,25,11.5,39.7
+WEST,Gujarat,110,Surendranagar ,931,143,93,32,159,13,5.2,21
+WEST,Gujarat,110,Vadodara ,894,167,123,44,217,23,9.2,39.7
+NORTH,Haryana,111,Panchkula ,751,83,109,47,182,15,5.8,21.8
+NORTH,Haryana,111,Ambala ,1139,200,175,107,328,39,18.2,62.5
+NORTH,Haryana,111,Yamunanagar ,1154,192,180,83,331,33,16.8,55.2
+NORTH,Haryana,111,Kurukshetra ,1140,184,205,89,346,42,17.8,63.3
+NORTH,Haryana,111,Kaithal ,872,97,83,37,147,13,5.1,19.8
+NORTH,Haryana,111,Karnal ,1237,202,133,47,218,31,9.4,42.8
+NORTH,Haryana,111,Panipat ,1004,143,114,41,217,21,12,36.6
+NORTH,Haryana,111,Sonipat ,1017,156,128,45,204,24,9.1,34.2
+NORTH,Haryana,111,Jind ,1053,159,99,48,174,22,9.6,34.7
+NORTH,Haryana,111,Fatehabad ,899,145,87,45,157,18,9.4,29.2
+NORTH,Haryana,111,Sirsa ,588,28,61,30,117,4,2.4,7.5
+NORTH,Haryana,111,Hisar ,1016,152,97,67,197,26,13.7,43.5
+NORTH,Haryana,111,Rohtak ,978,139,103,55,203,22,9.1,34.1
+NORTH,Haryana,111,Jhajjar ,911,142,101,71,191,25,11,38
+NORTH,Haryana,111,Mahendragarh ,997,164,137,50,215,26,13.3,42.3
+NORTH,Haryana,111,Rewari ,1021,150,160,70,246,25,13.5,39.8
+NORTH,Haryana,111,Gurgaon ,849,98,91,34,140,17,4.4,22
+NORTH,Haryana,111,Mewat ,1078,159,114,31,167,23,5.9,30.6
+NORTH,Haryana,111,Faridabad ,1033,184,157,55,241,35,11,48.1
+NORTH,Haryana,111,Palwal ,1166,191,163,72,256,31,11.2,44.3
+NORTH,Haryana,111,Bhiwani ,1046,143,129,40,195,23,10.4,35.5
+NORTH,Haryana,111,Charkhi Dadri ,960,113,131,45,198,19,4.7,25.8
+NORTH,Himachal Pradesh,112,Chamba ,931,109,111,33,165,21,3,25.2
+NORTH,Himachal Pradesh,112,Kangra ,930,123,124,63,232,22,6.2,32.7
+NORTH,Himachal Pradesh,112,Lahul & Spiti ,698,113,61,25,105,13,6.3,21.7
+NORTH,Himachal Pradesh,112,Kullu ,892,128,91,26,155,19,4.5,26.3
+NORTH,Himachal Pradesh,112,Mandi ,878,112,95,37,183,18,5.3,26.7
+NORTH,Himachal Pradesh,112,Hamirpur ,797,87,109,54,224,20,6.2,30.6
+NORTH,Himachal Pradesh,112,Una ,876,104,103,56,237,19,5.4,28.2
+NORTH,Himachal Pradesh,112,Bilaspur ,896,117,103,38,198,14,5.4,23.7
+NORTH,Himachal Pradesh,112,Solan ,855,148,106,46,186,21,9.7,33
+NORTH,Himachal Pradesh,112,Sirmaur ,1044,167,114,47,199,24,6.9,34.7
+NORTH,Himachal Pradesh,112,Shimla ,864,126,92,34,172,20,6,29.6
+NORTH,Himachal Pradesh,112,Kinnaur ,707,143,80,27,131,22,8,32.5
+NORTH,Jammu & Kashmir,114,Kupwara ,1233,175,129,26,224,20,4.7,33
+NORTH,Jammu & Kashmir,113,Badgam ,1200,172,131,54,238,19,6.4,32
+NORTH,Jammu & Kashmir,113,Punch ,1182,168,134,22,211,20,2.7,27.4
+NORTH,Jammu & Kashmir,113,Rajouri ,1183,181,134,32,196,17,4.4,25
+NORTH,Jammu & Kashmir,113,Kathua ,1064,149,163,20,201,29,3.2,35.1
+NORTH,Jammu & Kashmir,113,Baramula ,1329,166,181,52,315,19,5.2,31.5
+NORTH,Jammu & Kashmir,113,Bandipore ,1263,177,111,64,271,15,5.9,30.7
+NORTH,Jammu & Kashmir,113,Srinagar ,1030,138,102,17,207,14,2.2,24.9
+NORTH,Jammu & Kashmir,113,Ganderbal ,1202,158,129,38,258,17,4.7,30.2
+NORTH,Jammu & Kashmir,113,Pulwama ,1155,151,164,46,261,21,3.4,28.9
+NORTH,Jammu & Kashmir,113,Shupiyan ,1135,148,130,16,171,17,1.6,21
+NORTH,Jammu & Kashmir,113,Anantnag ,1102,125,126,42,220,14,4.6,24.2
+NORTH,Jammu & Kashmir,113,Kulgam ,1190,139,231,37,307,22,3.1,27.7
+NORTH,Jammu & Kashmir,113,Doda ,1000,141,126,39,231,21,4.7,30.2
+NORTH,Jammu & Kashmir,113,Ramban ,1192,182,137,24,209,20,3.1,28.6
+NORTH,Jammu & Kashmir,113,Kishtwar ,1158,152,50,25,152,8,2.5,20.3
+NORTH,Jammu & Kashmir,113,Udhampur ,1148,150,148,39,230,20,4,27.4
+NORTH,Jammu & Kashmir,113,Reasi ,1100,140,121,14,170,19,1.6,24.6
+NORTH,Jammu & Kashmir,113,Jammu ,1050,125,110,37,215,17,4.8,28.3
+NORTH,Jammu & Kashmir,113,Samba ,1121,150,130,45,237,19,7.6,32.3
+EAST,Jharkhand,114,Garhwa ,1060,128,118,57,194,17,10.1,30
+EAST,Jharkhand,114,Chatra ,1154,120,100,58,185,16,8,26.5
+EAST,Jharkhand,114,Kodarma ,1227,142,104,45,169,19,7.7,29.2
+EAST,Jharkhand,114,Giridih ,1124,114,114,57,196,18,7.1,27.2
+EAST,Jharkhand,114,Deoghar ,1066,136,91,44,151,17,6,25.2
+EAST,Jharkhand,114,Godda ,913,109,113,47,170,15,5.4,22
+EAST,Jharkhand,114,Sahibganj ,1007,113,82,53,151,12,4.3,18.7
+EAST,Jharkhand,114,Pakur ,966,104,97,55,165,14,5.6,21
+EAST,Jharkhand,114,Dhanbad ,1181,166,142,57,219,27,11.1,41.4
+EAST,Jharkhand,114,Bokaro ,1127,157,151,70,243,28,12.6,43.1
+EAST,Jharkhand,114,Lohardaga ,1107,145,131,52,193,21,7.3,29.3
+EAST,Jharkhand,114,Purbi Singhbhum ,1133,177,151,53,224,29,8.2,39.7
+EAST,Jharkhand,114,Palamu ,1204,143,132,60,220,23,10.6,34.7
+EAST,Jharkhand,114,Latehar ,1148,161,100,66,176,22,10.3,35.8
+EAST,Jharkhand,114,Hazaribagh ,1189,95,126,70,223,18,9.4,29.3
+EAST,Jharkhand,114,Ramgarh ,1123,178,145,65,236,27,18.2,48.8
+EAST,Jharkhand,114,Dumka ,958,122,91,38,135,16,6.6,24.4
+EAST,Jharkhand,114,Jamtara ,1073,144,108,54,191,20,7.6,31.5
+EAST,Jharkhand,114,Ranchi ,1182,156,153,54,232,25,8.8,36
+EAST,Jharkhand,114,Khunti ,1103,142,79,35,128,13,6.3,20.2
+EAST,Jharkhand,114,Gumla ,1113,176,122,38,168,26,8.2,35.1
+EAST,Jharkhand,114,Simdega ,1135,158,132,89,238,29,12.4,42.2
+EAST,Jharkhand,114,Pashchimi Singhbhum ,1076,145,129,49,192,19,7.8,28.2
+EAST,Jharkhand,114,Saraikela-Kharsawan ,1126,183,109,54,176,23,7.6,31.4
+SOUTH,Karnataka,115,Belgaum ,1147,179,132,49,222,26,8.8,39.8
+SOUTH,Karnataka,115,Bagalkot ,1138,182,126,44,217,24,9,38.2
+SOUTH,Karnataka,115,Bijapur ,1091,149,123,55,221,20,7.6,31.2
+SOUTH,Karnataka,115,Bidar ,1181,172,154,50,250,27,9.3,41.5
+SOUTH,Karnataka,115,Raichur ,1177,166,132,52,218,17,7.2,27.7
+SOUTH,Karnataka,115,Koppal ,1017,171,118,57,198,24,8.7,37.9
+SOUTH,Karnataka,115,Gadag ,1136,193,137,77,250,28,13.7,46.1
+SOUTH,Karnataka,115,Dharwad ,1051,156,159,63,280,23,9.5,37
+SOUTH,Karnataka,115,Uttara Kannada ,1000,164,148,71,269,24,11.2,41.2
+SOUTH,Karnataka,115,Haveri ,1060,141,118,50,227,20,9.7,34.4
+SOUTH,Karnataka,115,Bellary ,1103,156,140,53,234,22,6.8,32.7
+SOUTH,Karnataka,115,Chitradurga ,953,134,175,80,283,26,11.6,41
+SOUTH,Karnataka,115,Davanagere ,973,133,123,63,241,23,9.9,39.2
+SOUTH,Karnataka,115,Shimoga ,1033,161,159,73,281,31,11.5,46.2
+SOUTH,Karnataka,115,Udupi ,1065,145,173,87,333,27,13.3,47.1
+SOUTH,Karnataka,115,Chikmagalur ,945,143,172,73,275,27,8.6,41.1
+SOUTH,Karnataka,115,Tumkur ,912,129,149,59,249,29,12.1,43.8
+SOUTH,Karnataka,115,Bangalore ,840,125,178,47,258,27,9.4,41.9
+SOUTH,Karnataka,115,Mandya ,844,127,144,64,254,26,7.9,37.9
+SOUTH,Karnataka,115,Hassan ,979,136,154,75,275,24,10.8,40.2
+SOUTH,Karnataka,115,Dakshina Kannada ,987,149,172,85,297,28,12.1,44.5
+SOUTH,Karnataka,115,Kodagu ,885,139,142,94,279,27,11.9,46.3
+SOUTH,Karnataka,115,Mysore ,951,134,131,69,243,24,9.1,36.7
+SOUTH,Karnataka,115,Chamarajanagar ,957,136,162,89,275,26,12.4,40.7
+SOUTH,Karnataka,115,Gulbarga ,1147,167,118,39,195,27,9.1,41.3
+SOUTH,Karnataka,115,Yadgir ,1242,171,132,56,217,19,7.7,30.8
+SOUTH,Karnataka,115,Kolar ,990,164,130,89,240,29,14.2,45.8
+SOUTH,Karnataka,115,Chikkaballapura ,881,144,119,66,213,31,13.1,46.8
+SOUTH,Karnataka,115,Bangalore Rural ,956,142,149,71,255,30,11.4,43.7
+SOUTH,Karnataka,115,Ramanagara ,814,108,131,59,230,19,8.5,32.2
+SOUTH,Kerala,116,Kasaragod ,945,116,127,50,247,18,5.4,30.2
+SOUTH,Kerala,116,Kannur ,950,101,164,72,295,24,5.9,35.1
+SOUTH,Kerala,116,Wayanad ,813,128,123,59,234,23,9.4,36.2
+SOUTH,Kerala,116,Kozhikode ,825,107,132,49,244,20,4.3,30.4
+SOUTH,Kerala,116,Malappuram ,1004,141,144,49,255,26,6.8,38.7
+SOUTH,Kerala,116,Palakkad ,881,113,157,68,285,25,9.6,39.9
+SOUTH,Kerala,116,Thrissur ,715,66,102,44,225,12,5.4,24.3
+SOUTH,Kerala,116,Ernakulam ,747,115,118,37,221,21,6.4,34.8
+SOUTH,Kerala,116,Idukki ,710,121,125,72,247,22,9.5,38.5
+SOUTH,Kerala,116,Kottayam ,659,100,101,57,225,21,9.2,38.8
+SOUTH,Kerala,116,Alappuzha ,685,111,104,43,220,23,8.5,40.2
+SOUTH,Kerala,116,Pathanamthitta ,625,92,111,73,263,22,8.4,38.5
+SOUTH,Kerala,116,Kollam ,753,78,123,49,244,15,6.4,27.5
+SOUTH,Kerala,116,Thiruvananthapuram ,657,84,81,39,207,12,5.8,27
+NORTH,Ladakh,117,Leh(Ladakh) ,1154,141,101,8,147,13,1.2,20.7
+NORTH,Ladakh,117,Kargil ,1201,166,144,32,225,22,6.2,33.4
+SOUTH, Lakshadweep ,118,Lakshadweep ,1234,135,171,80,306,22,6.9,33.4
+NORTH,Madhya Pradesh,119,Sheopur ,997,119,138,41,191,21,8.8,30.6
+NORTH,Madhya Pradesh,119,Morena ,1079,137,103,48,161,19,5.8,26.1
+NORTH,Madhya Pradesh,119,Bhind ,956,133,101,33,146,16,5.8,22.6
+NORTH,Madhya Pradesh,119,Gwalior ,958,123,121,47,191,21,7.7,30.9
+NORTH,Madhya Pradesh,119,Datia ,1015,145,107,35,156,20,6.3,28.5
+NORTH,Madhya Pradesh,119,Shivpuri ,790,115,71,27,108,13,3.6,18
+NORTH,Madhya Pradesh,119,Tikamgarh ,620,82,70,11,89,9,1.7,10.6
+NORTH,Madhya Pradesh,119,Chhatarpur ,1001,161,124,33,172,21,5.4,28.1
+NORTH,Madhya Pradesh,119,Panna ,992,152,103,43,160,14,5.7,21.8
+NORTH,Madhya Pradesh,119,Sagar ,1014,174,164,67,256,31,11.8,45.9
+NORTH,Madhya Pradesh,119,Damoh ,988,160,134,62,223,23,8,34.2
+NORTH,Madhya Pradesh,119,Satna ,689,79,69,28,111,9,2.4,12.8
+NORTH,Madhya Pradesh,119,Rewa ,927,83,117,35,163,12,3.5,16.6
+NORTH,Madhya Pradesh,119,Umaria ,1135,172,161,66,237,30,6.5,38
+NORTH,Madhya Pradesh,119,Neemuch ,1178,181,205,83,306,35,12.9,51.6
+NORTH,Madhya Pradesh,119,Mandsaur ,1015,173,184,95,301,42,17.6,62.6
+NORTH,Madhya Pradesh,119,Ratlam ,1087,158,146,69,231,29,8.5,37.9
+NORTH,Madhya Pradesh,119,Ujjain ,1108,194,160,67,258,34,11.8,48.5
+NORTH,Madhya Pradesh,119,Dewas ,1107,188,159,84,271,34,16.8,53.7
+NORTH,Madhya Pradesh,119,Dhar ,679,101,94,29,135,15,3.8,20
+NORTH,Madhya Pradesh,119,Indore ,1071,188,141,44,222,29,8.1,40.1
+NORTH,Madhya Pradesh,119,Khargone (West Nimar) ,1173,180,159,69,248,32,11.6,44.8
+NORTH,Madhya Pradesh,119,Barwani ,1236,189,188,59,260,36,8.9,47.2
+NORTH,Madhya Pradesh,119,Rajgarh ,1020,144,150,68,248,22,10.2,34.5
+NORTH,Madhya Pradesh,119,Vidisha ,1019,166,98,46,175,21,6.8,30
+NORTH,Madhya Pradesh,119,Bhopal ,337,38,39,23,75,7,1.9,9.5
+NORTH,Madhya Pradesh,119,Sehore ,1088,168,153,87,282,30,11.8,44.6
+NORTH,Madhya Pradesh,119,Raisen ,474,52,57,19,90,8,2.1,11
+NORTH,Madhya Pradesh,119,Betul ,1021,141,117,40,182,22,6.6,30.5
+NORTH,Madhya Pradesh,119,Harda ,1207,204,167,63,262,28,11,42.5
+NORTH,Madhya Pradesh,119,Hoshangabad ,1042,162,146,73,250,31,13.7,48.5
+NORTH,Madhya Pradesh,119,Katni ,777,101,102,32,144,17,3.2,21
+NORTH,Madhya Pradesh,119,Jabalpur ,216,36,34,8,49,4,2,7.2
+NORTH,Madhya Pradesh,119,Narsimhapur ,1110,160,139,77,258,27,9,39
+NORTH,Madhya Pradesh,119,Dindori ,1047,163,170,83,264,34,10.2,45.2
+NORTH,Madhya Pradesh,119,Mandla ,1049,153,191,46,261,33,11.1,46.5
+NORTH,Madhya Pradesh,119,Chhindwara ,1009,128,110,63,219,18,7.7,28.9
+NORTH,Madhya Pradesh,119,Seoni ,989,136,116,61,208,23,9.2,34.9
+NORTH,Madhya Pradesh,119,Balaghat ,860,137,133,40,192,24,4.4,30
+NORTH,Madhya Pradesh,119,Guna ,1165,162,138,45,198,21,6.8,29.4
+NORTH,Madhya Pradesh,119,Ashoknagar ,862,96,96,33,141,13,5.2,19
+NORTH,Madhya Pradesh,119,Shahdol ,860,127,102,55,170,20,8.1,29.5
+NORTH,Madhya Pradesh,119,Anuppur ,1020,187,142,86,247,35,12.2,49.3
+NORTH,Madhya Pradesh,119,Sidhi ,1148,136,146,40,201,27,7,35.4
+NORTH,Madhya Pradesh,119,Singrauli ,643,64,87,33,121,12,4.5,16.5
+NORTH,Madhya Pradesh,119,Jhabua ,1037,140,175,57,244,26,7,33.2
+NORTH,Madhya Pradesh,119,Alirajpur ,1080,157,180,48,238,34,8.8,43.5
+NORTH,Madhya Pradesh,119,Khandwa (East Nimar) ,562,17,78,27,119,2,0.6,3
+NORTH,Madhya Pradesh,119,Burhanpur ,1139,197,99,35,158,21,6.8,31.2
+NORTH,Madhya Pradesh,119,Agar Malwa ,588,82,98,21,125,17,3.1,20.7
+NORTH,Madhya Pradesh,119,Shajapur ,1226,184,180,84,286,32,13.2,48
+WEST,Maharastra,120,Nandurbar ,1040,171,144,66,245,30,8,42
+WEST,Maharastra,120,Dhule ,883,137,92,51,189,22,7.3,34.4
+WEST,Maharastra,120,Jalgaon ,881,155,96,47,182,24,9.6,37.8
+WEST,Maharastra,120,Buldana ,1055,189,133,49,212,27,6.5,38.7
+WEST,Maharastra,120,Akola ,1098,202,128,46,213,26,8.5,38.5
+WEST,Maharastra,120,Washim ,986,196,142,46,216,32,6.3,41.1
+WEST,Maharastra,120,Amravati ,1060,180,116,51,210,22,7.4,33.7
+WEST,Maharastra,120,Wardha ,925,158,90,25,159,16,2.8,22.1
+WEST,Maharastra,120,Nagpur ,1063,169,141,39,226,22,4,30.9
+WEST,Maharastra,120,Bhandara ,920,152,113,43,201,17,6.2,29.3
+WEST,Maharastra,120,Gondiya ,938,167,108,51,204,18,8.3,31.5
+WEST,Maharastra,120,Gadchiroli ,915,164,95,29,155,18,6.1,28.2
+WEST,Maharastra,120,Chandrapur ,965,175,120,46,200,24,7.2,36.1
+WEST,Maharastra,120,Yavatmal ,1001,177,106,35,172,22,7.1,32.2
+WEST,Maharastra,120,Nanded ,1026,164,91,47,171,17,6.8,28.3
+WEST,Maharastra,120,Hingoli ,1121,173,120,40,195,20,6.6,30.2
+WEST,Maharastra,120,Parbhani ,888,158,99,41,186,21,5.8,34.1
+WEST,Maharastra,120,Jalna ,937,145,117,39,204,26,4.8,36
+WEST,Maharastra,120,Aurangabad ,1011,147,117,53,210,21,5.9,30.7
+WEST,Maharastra,120,Nashik ,1023,155,136,55,230,26,11.1,40.5
+WEST,Maharastra,120,Mumbai Suburban ,552,64,87,25,147,12,3,17.9
+WEST,Maharastra,120,Mumbai ,779,127,110,16,164,21,4.2,29.5
+WEST,Maharastra,120,Raigarh ,918,172,136,56,228,31,9.3,45.4
+WEST,Maharastra,120,Pune ,832,140,119,31,186,23,9,36.1
+WEST,Maharastra,120,Ahmadnagar ,993,139,133,50,234,22,8.7,35.2
+WEST,Maharastra,120,Bid ,864,146,129,69,228,25,8.6,35.1
+WEST,Maharastra,120,Latur ,1006,160,111,49,188,22,6.8,31.3
+WEST,Maharastra,120,Osmanabad ,916,147,129,58,215,27,9.3,38.5
+WEST,Maharastra,120,Solapur ,1003,153,162,65,258,29,7.7,40.1
+WEST,Maharastra,120,Satara ,978,149,160,61,266,26,12.6,44.4
+WEST,Maharastra,120,Ratnagiri ,807,127,147,65,261,27,11,43
+WEST,Maharastra,120,Sindhudurg ,722,115,154,50,264,28,7.7,43.6
+WEST,Maharastra,120,Kolhapur ,986,150,167,65,306,29,10.7,49.8
+WEST,Maharastra,120,Sangli ,966,152,175,65,291,33,9,48.7
+WEST,Maharastra,120,Palghar ,941,131,151,34,220,21,5.4,29.3
+WEST,Maharastra,120,Thane ,756,91,105,46,185,17,6.4,27
+EAST,Manipur,121,Senapati ,837,120,90,59,156,22,11.4,33.8
+EAST,Manipur,121,Tamenglong ,839,133,132,41,180,28,9.9,39.1
+EAST,Manipur,121,Churachandpur ,872,119,84,40,142,20,6.9,30
+EAST,Manipur,121,Bishnupur ,1043,140,145,56,246,25,12.1,43.8
+EAST,Manipur,121,Thoubal ,1069,149,148,69,248,30,15.7,49.8
+EAST,Manipur,121,Imphal West ,893,129,147,54,245,32,13,49.5
+EAST,Manipur,121,Imphal East ,1021,161,122,50,224,35,15.7,58
+EAST,Manipur,121,Ukhrul ,711,106,95,54,159,18,7.5,26.5
+EAST,Manipur,121,Chandel ,757,105,96,56,164,21,8.1,29.6
+EAST,Meghalaya,122,South Garo Hills ,1088,143,110,12,172,24,4.7,32.6
+EAST,Meghalaya,122,Ribhoi ,1238,145,92,25,167,18,4.1,23.2
+EAST,Meghalaya,122,East Khasi Hills ,1066,131,119,59,261,19,5.6,32.8
+EAST,Meghalaya,122,East Garo Hills ,1280,198,109,37,196,32,8.8,45.9
+EAST,Meghalaya,122,East Jantia Hills ,1311,200,119,77,245,22,8.6,34.4
+EAST,Meghalaya,122,North Garo Hills ,1283,180,134,59,256,28,9.5,45.6
+EAST,Meghalaya,122,South West Garo Hills ,1161,140,93,24,158,20,3.8,28
+EAST,Meghalaya,122,South West Khasi Hills ,1203,196,131,53,222,25,10.1,37.3
+EAST,Meghalaya,122,West Garo Hills ,1090,158,125,29,190,27,5.3,39
+EAST,Meghalaya,122,West Jaintia Hills ,1172,155,105,39,211,13,5,24
+EAST,Meghalaya,122,West Khasi Hills ,1197,178,108,57,191,21,6.8,29.2
+EAST,Mizoram,123,Chandel ,757,105,96,56,164,21,8.1,29.6
+EAST,Mizoram,123,Mamit ,898,146,90,21,128,24,4.5,30.7
+EAST,Mizoram,123,Kolasib ,926,145,95,37,152,24,8.2,35.2
+EAST,Mizoram,123,Aizawl ,894,115,126,24,209,23,7.8,38.6
+EAST,Mizoram,123,Champhai ,806,150,73,36,130,21,5.9,29.5
+EAST,Mizoram,123,Serchhip ,917,134,71,23,106,17,4.2,23.7
+EAST,Mizoram,123,Lunglei ,973,128,75,35,135,16,6.6,25.6
+EAST,Mizoram,123,Lawngtlai ,975,153,80,31,127,20,8.3,31
+EAST,Nagaland,124,Mon ,832,123,109,59,170,31,12.3,43.9
+EAST,Nagaland,124,Mokokchung ,892,118,131,71,207,25,8.1,34.1
+EAST,Nagaland,124,Zunheboto ,778,103,175,82,259,30,12.1,42.4
+EAST,Nagaland,124,Wokha ,789,124,126,60,192,29,14.9,44.2
+EAST,Nagaland,124,Dimapur ,1053,155,116,55,196,19,10.7,32.3
+EAST,Nagaland,124,Phek ,931,154,138,96,241,33,18.8,52
+EAST,Nagaland,124,Tuensang ,987,142,121,77,201,24,9.7,34.5
+EAST,Nagaland,124,Longleng ,873,132,123,63,197,27,11.5,39.6
+EAST,Nagaland,124,Kiphire ,799,125,82,33,122,19,6.5,27.5
+EAST,Nagaland,124,Kohima ,817,132,124,80,210,26,14.8,41
+EAST,Nagaland,124,Peren ,943,148,124,48,186,29,10.6,41
+NORTH,NCT of Delhi,125,Central ,897,101,140,63,238,26,13,41.9
+NORTH,NCT of Delhi,125,East ,1055,158,176,65,272,35,14.8,53.4
+NORTH,NCT of Delhi,125,New Delhi ,924,170,137,64,238,37,18.4,57.5
+NORTH,NCT of Delhi,125,North ,929,120,107,56,198,25,11.4,39.4
+NORTH,NCT of Delhi,125,North East ,1057,155,175,79,287,39,15.6,57.3
+NORTH,NCT of Delhi,125,North West ,996,164,142,50,240,34,10.3,49
+NORTH,NCT of Delhi,125,Shahdara ,1151,174,177,79,301,40,17,60.8
+NORTH,NCT of Delhi,125,South ,990,147,151,45,221,33,9,44.7
+NORTH,NCT of Delhi,125,South East ,1096,193,173,58,260,38,12.8,53.7
+NORTH,NCT of Delhi,125,South West ,1064,151,141,32,207,25,11.6,40
+NORTH,NCT of Delhi,125,West ,1000,167,133,67,238,39,15.2,57
+EAST,Odisha,126,Bargarh ,891,145,127,45,201,26,6.9,35.2
+EAST,Odisha,126,Jharsuguda ,904,133,104,41,185,23,6.6,33.6
+EAST,Odisha,126,Sambalpur ,876,133,125,44,194,24,5.4,32.5
+EAST,Odisha,126,Debagarh ,859,114,102,47,172,19,8.9,31.4
+EAST,Odisha,126,Sundargarh ,883,119,111,48,186,20,7.7,30.1
+EAST,Odisha,126,Kendujhar ,971,128,140,52,234,24,6.7,32.1
+EAST,Odisha,126,Mayurbhanj ,921,123,131,82,241,23,9.5,35.5
+EAST,Odisha,126,Baleshwar ,856,100,104,51,196,20,6.6,29.5
+EAST,Odisha,126,Bhadrak ,936,106,117,48,203,18,6.2,27.7
+EAST,Odisha,126,Kendrapara ,860,111,106,46,189,16,7.7,27.6
+EAST,Odisha,126,Jagatsinghapur ,889,103,132,63,233,20,7.6,31.1
+EAST,Odisha,126,Cuttack ,845,130,102,39,191,21,8.9,35.2
+EAST,Odisha,126,Jajapur ,959,140,130,58,228,25,10,39.2
+EAST,Odisha,126,Dhenkanal ,857,98,111,63,217,15,7.1,25.5
+EAST,Odisha,126,Anugul ,964,148,99,35,182,20,6.8,31.2
+EAST,Odisha,126,Nayagarh ,917,132,95,54,202,14,6.5,24.8
+EAST,Odisha,126,Khordha ,927,116,94,35,187,17,5.8,29.1
+EAST,Odisha,126,Puri ,930,120,98,46,193,17,6.5,28
+EAST,Odisha,126,Ganjam ,955,111,119,68,224,18,10.1,33
+EAST,Odisha,126,Gajapati ,883,109,111,37,174,18,7.6,27.1
+EAST,Odisha,126,Kandhamal ,1015,152,170,58,248,27,9.4,37.7
+EAST,Odisha,126,Baudh ,970,140,130,49,203,24,8,33.6
+EAST,Odisha,126,Subarnapur ,947,144,146,43,212,22,5.8,29.5
+EAST,Odisha,126,Balangir ,989,143,145,27,198,26,4.9,34.9
+EAST,Odisha,126,Nuapada ,944,139,132,57,202,23,7.9,32.8
+EAST,Odisha,126,Kalahandi ,1034,161,171,80,273,30,9.8,42.1
+EAST,Odisha,126,Rayagada ,910,135,87,66,177,20,10.9,33.8
+EAST,Odisha,126,Nabarangapur ,1017,155,160,40,211,28,5.3,35
+EAST,Odisha,126,Koraput ,982,140,132,66,207,24,9,34.4
+EAST,Odisha,126,Malkangiri ,1080,137,113,53,185,18,8.6,28.3
+SOUTH,Puducherry,127,Yanam ,968,157,158,76,312,31,13.1,52.3
+SOUTH,Puducherry,127,Puducherry ,830,110,96,29,188,22,6.7,34.2
+SOUTH,Puducherry,127,Mahe ,981,154,198,91,326,38,14.4,58.1
+SOUTH,Puducherry,127,Karaikal ,890,113,108,36,182,16,7.4,27.6
+NORTH,Punjab,128,Kapurthala ,968,154,189,84,313,38,13.6,55.8
+NORTH,Punjab,128,Jalandhar ,898,141,182,77,292,38,11.7,52.8
+NORTH,Punjab,128,Hoshiarpur ,1027,155,230,114,369,45,20.3,66.7
+NORTH,Punjab,128,Shahid Bhagat Singh Nagar ,1103,162,232,102,361,48,19.3,69.4
+NORTH,Punjab,128,Fatehgarh Sahib ,905,147,163,79,288,32,14.8,51.6
+NORTH,Punjab,128,Ludhiana ,817,134,123,56,215,29,10.7,43.1
+NORTH,Punjab,128,Moga ,1032,187,188,99,322,43,19.3,66
+NORTH,Punjab,128,Muktsar ,1022,173,154,61,249,36,16.6,55.4
+NORTH,Punjab,128,Faridkot ,968,142,127,73,253,31,15.5,50.2
+NORTH,Punjab,128,Bathinda ,908,155,145,87,293,41,24.1,69.8
+NORTH,Punjab,128,Mansa ,1080,153,185,103,326,40,22.6,64.5
+NORTH,Punjab,128,Patiala ,981,142,164,64,281,30,13.4,48.7
+NORTH,Punjab,128,Amritsar ,965,169,229,91,346,45,25.2,72.7
+NORTH,Punjab,128,Tarn Taran ,1045,137,196,97,325,31,14.6,49.5
+NORTH,Punjab,128,Rupnagar ,969,109,136,68,263,21,9.1,34.7
+NORTH,Punjab,128,Sahibzada Ajit Singh Nagar ,873,107,125,59,242,23,8.9,36.4
+NORTH,Punjab,128,Sangrur ,1052,150,201,100,346,39,20,62.7
+NORTH,Punjab,128,Barnala ,956,158,182,90,314,40,19.5,63.1
+NORTH,Punjab,128,Fazilka ,1131,187,190,70,316,47,16.6,67.7
+NORTH,Punjab,128,Firozpur ,1176,172,219,93,349,35,18.3,58.2
+NORTH,Punjab,128,Gurdaspur ,960,137,211,108,353,35,15.3,53.7
+NORTH,Punjab,128,Pathankot ,935,125,190,93,308,30,9.4,40.7
+WEST,Rajasthan,129,Ganganagar ,1409,223,146,31,229,29,6.7,40.7
+WEST,Rajasthan,129,Hanumangarh ,1372,223,158,55,274,35,10.7,50.3
+WEST,Rajasthan,129,Bikaner ,1473,241,91,33,177,20,3.3,28.5
+WEST,Rajasthan,129,Churu ,1493,225,195,80,316,37,14.7,57.1
+WEST,Rajasthan,129,Jhunjhunun ,1388,186,174,69,287,33,10.4,47.6
+WEST,Rajasthan,129,Alwar ,1182,152,155,63,239,24,13.3,39.1
+WEST,Rajasthan,129,Bharatpur ,1225,168,139,60,233,28,7.5,39.6
+WEST,Rajasthan,129,Dhaulpur ,1220,187,105,45,163,19,7.2,28.3
+WEST,Rajasthan,129,Karauli ,1167,176,87,20,124,17,5,23.2
+WEST,Rajasthan,129,Sawai Madhopur ,1118,177,108,41,172,24,8.3,35.1
+WEST,Rajasthan,129,Dausa ,1332,208,103,40,162,23,8.2,33.6
+WEST,Rajasthan,129,Jaipur ,1241,198,113,38,182,23,6.6,32.6
+WEST,Rajasthan,129,Sikar ,1458,203,176,63,283,31,10.5,44.7
+WEST,Rajasthan,129,Nagaur ,1601,221,169,46,249,28,7.3,38.7
+WEST,Rajasthan,129,Jodhpur ,1535,239,133,40,200,31,6.1,39.5
+WEST,Rajasthan,129,Jaisalmer ,1537,237,103,25,150,30,4.9,37.4
+WEST,Rajasthan,129,Barmer ,1621,237,107,18,138,21,3.9,25.9
+WEST,Rajasthan,129,Jalor ,1318,193,104,20,137,17,3.1,22.1
+WEST,Rajasthan,129,Sirohi ,1304,190,141,27,185,27,6.4,35.5
+WEST,Rajasthan,129,Pali ,1236,159,105,24,160,19,4.2,26.3
+WEST,Rajasthan,129,Ajmer ,1082,146,74,36,156,11,3.7,19.1
+WEST,Rajasthan,129,Tonk ,1240,187,123,60,208,26,8.7,37.6
+WEST,Rajasthan,129,Bundi ,1253,190,132,58,215,26,7.7,36.1
+WEST,Rajasthan,129,Bhilwara ,1147,171,123,40,176,19,6.3,26.9
+WEST,Rajasthan,129,Rajsamand ,1153,152,99,29,174,17,3.2,23.4
+WEST,Rajasthan,129,Dungarpur ,1359,223,135,26,175,26,5.4,33.3
+WEST,Rajasthan,129,Banswara ,1172,170,148,36,200,26,6.2,32.9
+WEST,Rajasthan,129,Chittaurgarh ,1090,141,130,47,199,21,7.2,29.7
+WEST,Rajasthan,129,Kota ,1278,158,127,36,204,22,6,31.9
+WEST,Rajasthan,129,Baran ,1301,227,98,37,163,24,7.8,35.5
+WEST,Rajasthan,129,Jhalawar ,1209,177,113,45,181,22,6.3,30.6
+WEST,Rajasthan,129,Udaipur ,1277,191,128,41,184,25,4.7,31.4
+WEST,Rajasthan,129,Pratapgarh ,1199,177,142,41,197,24,8,33.2
+EAST,Sikkim,130,North  District ,768,112,171,100,299,28,21.8,53.4
+EAST,Sikkim,130,West District ,1034,150,238,92,338,46,20.6,67.6
+EAST,Sikkim,130,South District ,745,114,146,118,306,34,18.4,56.6
+EAST,Sikkim,130,East District ,724,93,111,79,229,18,11.1,31.8
+SOUTH,Tamil Nadu,131,Thiruvallur ,775,124,102,49,204,24,11.5,40.2
+SOUTH,Tamil Nadu,131,Chennai ,660,101,105,46,190,21,7.6,33.6
+SOUTH,Tamil Nadu,131,Kancheepuram ,796,102,97,52,194,19,8.8,32.6
+SOUTH,Tamil Nadu,131,Vellore ,886,108,125,63,230,18,7,27.6
+SOUTH,Tamil Nadu,131,Tiruvannamalai ,786,108,96,31,151,18,6.6,27.9
+SOUTH,Tamil Nadu,131,Viluppuram ,812,109,81,34,154,18,7.8,28.4
+SOUTH,Tamil Nadu,131,Salem ,754,99,124,49,201,24,7.7,33.7
+SOUTH,Tamil Nadu,131,Namakkal ,700,109,99,51,179,23,8.7,34.3
+SOUTH,Tamil Nadu,131,Erode ,774,110,132,70,228,28,7.4,39.7
+SOUTH,Tamil Nadu,131,The Nilgiris ,850,120,170,93,291,26,11.8,39.5
+SOUTH,Tamil Nadu,131,Dindigul ,951,142,158,54,244,35,9.6,48.5
+SOUTH,Tamil Nadu,131,Karur ,689,93,89,49,166,18,5.7,27
+SOUTH,Tamil Nadu,131,Tiruchirappalli ,764,89,91,41,163,16,5.3,25.7
+SOUTH,Tamil Nadu,131,Perambalur ,724,87,84,28,143,15,4.9,22.7
+SOUTH,Tamil Nadu,131,Ariyalur ,765,93,95,35,158,17,5.9,25.6
+SOUTH,Tamil Nadu,131,Cuddalore ,859,98,101,38,173,17,8.1,26.4
+SOUTH,Tamil Nadu,131,Nagapattinam ,794,96,106,56,194,19,9,30.8
+SOUTH,Tamil Nadu,131,Thiruvarur ,783,98,113,40,186,18,7.7,30.4
+SOUTH,Tamil Nadu,131,Thanjavur ,687,83,117,48,198,16,8.3,28.7
+SOUTH,Tamil Nadu,131,Pudukkottai ,871,101,102,46,200,17,7.6,30.5
+SOUTH,Tamil Nadu,131,Sivaganga ,887,106,115,34,195,16,7.2,27.5
+SOUTH,Tamil Nadu,131,Madurai ,844,131,134,46,216,29,7.8,41.7
+SOUTH,Tamil Nadu,131,Theni ,979,139,196,59,281,35,11,49.5
+SOUTH,Tamil Nadu,131,Virudhunagar ,860,101,88,37,173,13,6,23.1
+SOUTH,Tamil Nadu,131,Ramanathapuram ,913,120,128,55,212,22,8.9,33.8
+SOUTH,Tamil Nadu,131,Thoothukkudi ,774,99,120,41,190,17,7.4,27.9
+SOUTH,Tamil Nadu,131,Tirunelveli ,777,92,100,45,171,14,5.8,23.4
+SOUTH,Tamil Nadu,131,Kanniyakumari ,711,103,96,45,173,20,6.2,31.1
+SOUTH,Tamil Nadu,131,Dharmapuri ,827,101,124,67,214,21,8.4,31.1
+SOUTH,Tamil Nadu,131,Krishnagiri ,909,130,135,56,214,21,9.5,32.9
+SOUTH,Tamil Nadu,131,Coimbatore ,763,95,130,60,222,22,7.2,31.7
+SOUTH,Tamil Nadu,131,Tiruppur ,726,85,115,54,195,16,5.9,24.6
+SOUTH,Telangana,132,Adilabad ,965,156,125,62,223,24,11.6,41.2
+SOUTH,Telangana,132,Bhadradri Kothagudem ,945,136,159,63,280,27,8.3,41
+SOUTH,Telangana,132,Hyderabad ,642,84,91,34,194,19,8.6,35
+SOUTH,Telangana,132,Jagitial ,885,99,105,51,225,16,8.3,31
+SOUTH,Telangana,132,Jangoan ,843,108,113,52,220,20,8.2,31.3
+SOUTH,Telangana,132,Jayashankar Bhupalapally ,852,124,135,68,242,26,9.3,39.1
+SOUTH,Telangana,132,Jogulamba Gadwal ,975,125,127,51,210,21,12,37.1
+SOUTH,Telangana,132,Kamareddy ,857,134,123,58,237,23,10.9,39
+SOUTH,Telangana,132,Karimnagar ,853,114,100,49,213,22,9.8,39.5
+SOUTH,Telangana,132,Khammam ,906,132,135,60,250,24,10.8,40.6
+SOUTH,Telangana,132,Komaram Bheem Asifabad ,934,136,124,51,204,24,10.5,37
+SOUTH,Telangana,132,Mahabubabad ,903,121,105,55,198,22,8.7,34.8
+SOUTH,Telangana,132,Mahabubnagar ,1006,137,141,56,243,23,8.8,36.2
+SOUTH,Telangana,132,Mancherial ,846,118,124,57,236,23,10,37.8
+SOUTH,Telangana,132,Medak ,883,128,121,59,235,20,10.7,37
+SOUTH,Telangana,132,Medchal-Malkajgiri ,825,107,107,47,218,20,9.8,37.3
+SOUTH,Telangana,132,Nagarkurnool ,915,136,118,59,225,23,8.5,37.1
+SOUTH,Telangana,132,Nalgonda ,879,129,91,42,173,20,7.7,33.2
+SOUTH,Telangana,132,Nirmal ,851,107,114,52,213,20,5.7,30.5
+SOUTH,Telangana,132,Nizamabad ,891,107,121,60,242,19,9.7,33.4
+SOUTH,Telangana,132,Peddapalli ,861,142,115,55,238,31,11.6,49.2
+SOUTH,Telangana,132,Rajanna Sircilla ,901,125,143,66,272,24,10,44.9
+SOUTH,Telangana,132,Ranga Reddy ,935,104,138,74,266,22,9.7,36.4
+SOUTH,Telangana,132,Sangareddy ,911,119,136,57,234,23,12.3,38.8
+SOUTH,Telangana,132,Siddipet ,832,116,95,55,222,22,10.7,42.7
+SOUTH,Telangana,132,Suryapet ,851,125,108,52,214,21,7.2,34.2
+SOUTH,Telangana,132,Vikarabad ,929,132,139,73,251,24,11.7,40
+SOUTH,Telangana,132,Wanaparthy ,965,146,130,46,218,24,8.5,37.3
+SOUTH,Telangana,132,Warangal Rural ,830,123,128,52,218,21,10.4,36.2
+SOUTH,Telangana,132,Warangal Urban ,900,138,97,50,220,24,11.7,45.1
+SOUTH,Telangana,132,Yadadri Bhuvanagiri ,947,155,118,64,235,30,13.6,50.1
+EAST,Tripura,133,Dhalai ,979,130,89,35,142,15,5.2,22.6
+EAST,Tripura,133,Gomati ,851,109,89,31,168,14,3.7,23.3
+EAST,Tripura,133,Khowai ,872,137,99,46,166,20,6.8,29.3
+EAST,Tripura,133,North Tripura ,1039,125,102,47,195,13,6.5,24.2
+EAST,Tripura,133,Sepahijala ,892,121,89,39,172,14,4,24.1
+EAST,Tripura,133,South Tripura ,866,96,98,43,194,14,4.4,23.2
+EAST,Tripura,133,Unakoti ,950,121,104,49,200,16,6.4,26.7
+EAST,Tripura,133,West Tripura ,865,151,110,57,217,23,10.9,41
+NORTH,Uttar Pradesh,134,Saharanpur ,1318,183,204,86,303,33,10.3,44.4
+NORTH,Uttar Pradesh,134,Bijnor ,1348,178,178,61,265,30,10.5,43.3
+NORTH,Uttar Pradesh,134,Rampur ,1092,145,117,56,193,23,6.6,30.5
+NORTH,Uttar Pradesh,134,Jyotiba Phule Nagar ,1411,165,189,60,270,31,8.5,40.6
+NORTH,Uttar Pradesh,134,Meerut ,1212,169,153,67,242,29,12.8,44.2
+NORTH,Uttar Pradesh,134,Baghpat ,1304,203,174,78,278,37,12.2,51.8
+NORTH,Uttar Pradesh,134,Gautam Buddha Nagar ,863,95,85,35,141,13,5,19.8
+NORTH,Uttar Pradesh,134,Bulandshahr ,1105,140,144,70,235,26,9.1,36.7
+NORTH,Uttar Pradesh,134,Aligarh ,1073,145,127,46,195,24,5.9,31.9
+NORTH,Uttar Pradesh,134,Mahamaya Nagar ,1234,146,167,77,277,26,10.7,38.6
+NORTH,Uttar Pradesh,134,Mathura ,1175,162,153,73,248,28,11.6,41.2
+NORTH,Uttar Pradesh,134,Agra ,1226,159,126,64,206,26,6.6,33.3
+NORTH,Uttar Pradesh,134,Firozabad ,1178,181,140,59,213,27,8.4,37
+NORTH,Uttar Pradesh,134,Mainpuri ,1258,168,122,41,182,23,5.6,30.1
+NORTH,Uttar Pradesh,134,Bareilly ,1088,99,119,46,178,12,4.7,17.4
+NORTH,Uttar Pradesh,134,Pilibhit ,1040,142,122,57,203,16,7.7,24.8
+NORTH,Uttar Pradesh,134,Shahjahanpur ,1286,220,145,53,207,24,6.5,31.8
+NORTH,Uttar Pradesh,134,Kheri ,1280,169,164,72,257,28,8.8,37.9
+NORTH,Uttar Pradesh,134,Sitapur ,1212,148,138,66,215,24,8.4,34
+NORTH,Uttar Pradesh,134,Hardoi ,1206,188,143,53,219,28,8,37.4
+NORTH,Uttar Pradesh,134,Unnao ,1128,152,152,64,248,24,6.1,32.5
+NORTH,Uttar Pradesh,134,Lucknow ,958,117,119,61,203,18,7,26.6
+NORTH,Uttar Pradesh,134,Farrukhabad ,1276,175,116,43,177,21,3.3,25.8
+NORTH,Uttar Pradesh,134,Kannauj ,1317,198,118,42,196,21,4.3,28.5
+NORTH,Uttar Pradesh,134,Etawah ,1225,183,144,47,205,28,6.3,36
+NORTH,Uttar Pradesh,134,Auraiya ,1309,166,185,67,262,28,8.3,36.7
+NORTH,Uttar Pradesh,134,Kanpur Dehat ,1213,144,87,45,153,16,6,23.7
+NORTH,Uttar Pradesh,134,Kanpur Nagar ,1150,177,116,51,199,21,4.9,28.6
+NORTH,Uttar Pradesh,134,Jalaun ,1373,198,158,50,230,29,8.2,39.5
+NORTH,Uttar Pradesh,134,Jhansi ,1326,229,156,32,208,29,8.9,39.6
+NORTH,Uttar Pradesh,134,Lalitpur ,1484,230,159,70,255,30,8.2,41.1
+NORTH,Uttar Pradesh,134,Hamirpur ,1389,206,190,32,232,32,5.4,38.7
+NORTH,Uttar Pradesh,134,Mahoba ,1347,226,146,42,202,27,6.2,35.4
+NORTH,Uttar Pradesh,134,Banda ,1189,203,149,55,239,26,8.8,38.3
+NORTH,Uttar Pradesh,134,Chitrakoot ,1176,173,99,36,177,18,5.1,28.4
+NORTH,Uttar Pradesh,134,Fatehpur ,1206,175,127,52,205,23,6,31.6
+NORTH,Uttar Pradesh,134,Pratapgarh ,1267,96,129,62,222,13,5.8,21.4
+NORTH,Uttar Pradesh,134,Kaushambi ,1100,140,55,38,103,9,3.9,14
+NORTH,Uttar Pradesh,134,Allahabad ,1124,123,88,35,141,15,5.3,21.8
+NORTH,Uttar Pradesh,134,Bara Banki ,1186,184,132,71,226,27,12.2,41.7
+NORTH,Uttar Pradesh,134,Faizabad ,1213,137,108,49,180,14,6,24.2
+NORTH,Uttar Pradesh,134,Ambedkar Nagar ,1259,130,114,71,216,18,8.9,28.7
+NORTH,Uttar Pradesh,134,Bahraich ,1128,129,151,84,273,23,11,37
+NORTH,Uttar Pradesh,134,Shrawasti ,1233,154,121,57,227,20,5.3,28.8
+NORTH,Uttar Pradesh,134,Balrampur ,1235,141,170,87,287,23,9.9,35.6
+NORTH,Uttar Pradesh,134,Gonda ,1292,152,158,79,296,27,11.4,43.5
+NORTH,Uttar Pradesh,134,Siddharthnagar ,1396,127,164,74,267,18,9.4,29.8
+NORTH,Uttar Pradesh,134,Basti ,1362,147,153,81,262,24,11.1,36.7
+NORTH,Uttar Pradesh,134,Sant Kabir Nagar ,1266,120,165,72,284,22,8.7,33.8
+NORTH,Uttar Pradesh,134,Mahrajganj ,1316,120,149,68,258,20,7.2,29.8
+NORTH,Uttar Pradesh,134,Gorakhpur ,1360,135,139,62,229,18,8.3,27.9
+NORTH,Uttar Pradesh,134,Kushinagar ,1312,138,123,61,215,18,8.8,30.2
+NORTH,Uttar Pradesh,134,Deoria ,1317,157,135,76,232,20,9.1,32.9
+NORTH,Uttar Pradesh,134,Azamgarh ,1354,146,162,73,263,27,11.8,41.9
+NORTH,Uttar Pradesh,134,Mau ,1310,189,213,68,313,39,14.9,56.6
+NORTH,Uttar Pradesh,134,Ballia ,1254,144,133,48,214,22,4.6,29.8
+NORTH,Uttar Pradesh,134,Jaunpur ,1561,176,159,60,249,24,8.8,34.7
+NORTH,Uttar Pradesh,134,Ghazipur ,1363,203,124,41,193,32,7.1,41.1
+NORTH,Uttar Pradesh,134,Chandauli ,1272,141,147,73,241,22,8.9,33.3
+NORTH,Uttar Pradesh,134,Varanasi ,1403,195,187,54,267,41,11,52.9
+NORTH,Uttar Pradesh,134,Sant Ravidas Nagar (Bhadohi) ,1352,118,125,55,201,19,6.4,27.1
+NORTH,Uttar Pradesh,134,Mirzapur ,1176,147,161,74,255,27,11.9,42.6
+NORTH,Uttar Pradesh,134,Sonbhadra ,1158,168,150,58,220,28,6.7,36
+NORTH,Uttar Pradesh,134,Etah ,1267,179,142,46,207,25,7.9,34.4
+NORTH,Uttar Pradesh,134,Kanshiram Nagar ,1143,163,106,55,188,21,9.4,31.8
+NORTH,Uttar Pradesh,134,Amethi ,1255,124,160,63,241,18,7.1,26.3
+NORTH,Uttar Pradesh,134,Budaun ,1134,166,98,39,147,17,5.1,22.9
+NORTH,Uttar Pradesh,134,Ghaziabad ,805,76,83,51,156,12,5.2,18.6
+NORTH,Uttar Pradesh,134,Hapur ,1357,222,212,86,311,45,11.2,57
+NORTH,Uttar Pradesh,134,Moradabad ,1264,160,172,81,269,29,10,40.9
+NORTH,Uttar Pradesh,134,Muzaffarnagar ,1201,179,179,60,260,30,12.2,43.3
+NORTH,Uttar Pradesh,134,Rae Bareli ,1258,148,142,74,243,17,7,26.4
+NORTH,Uttar Pradesh,134,Sambhal ,1314,199,186,62,254,33,10.7,45.2
+NORTH,Uttar Pradesh,134,Shamli ,1300,180,165,90,275,38,12.9,51.4
+NORTH,Uttar Pradesh,134,Sultanpur ,1282,133,167,75,265,22,8.9,32.3
+NORTH,Uttarakhand,135,Uttarkashi ,1049,165,131,52,199,27,10.3,40.2
+NORTH,Uttarakhand,135,Chamoli ,1016,114,154,38,200,22,9.3,32.4
+NORTH,Uttarakhand,135,Rudraprayag ,1032,108,131,45,193,22,9.9,34.2
+NORTH,Uttarakhand,135,Tehri Garhwal ,971,111,127,53,194,24,11.6,37.7
+NORTH,Uttarakhand,135,Dehradun ,979,93,125,59,232,17,9.5,29.6
+NORTH,Uttarakhand,135,Garhwal ,836,80,121,43,184,17,9.6,27.5
+NORTH,Uttarakhand,135,Pithoragarh ,1085,145,161,73,252,31,14.9,47.6
+NORTH,Uttarakhand,135,Bageshwar ,1008,113,132,57,204,23,13.5,39.4
+NORTH,Uttarakhand,135,Almora ,938,91,127,77,231,18,11.1,30.2
+NORTH,Uttarakhand,135,Champawat ,1177,147,152,59,234,30,11.6,43.7
+NORTH,Uttarakhand,135,Nainital ,1078,155,154,64,259,31,12,47.2
+NORTH,Uttarakhand,135,Udham Singh Nagar ,1143,143,144,83,254,27,12.4,43.2
+NORTH,Uttarakhand,135,Hardwar ,968,121,145,67,253,27,11.5,41
+EAST,West Bengal,136,Darjiling ,1058,163,171,107,308,31,14.1,48
+EAST,West Bengal,136,Jalpaiguri ,1101,149,138,70,233,22,10.6,35.2
+EAST,West Bengal,136,Koch Bihar ,1095,157,140,67,237,18,10.1,32.7
+EAST,West Bengal,136,Uttar Dinajpur ,1129,157,118,44,184,25,7.5,37.4
+EAST,West Bengal,136,Dakshin Dinajpur ,1137,163,110,46,200,17,4.9,26.4
+EAST,West Bengal,136,Maldah ,1113,150,126,61,215,16,6.1,26.7
+EAST,West Bengal,136,Murshidabad ,1144,159,115,61,214,17,5.1,25.9
+EAST,West Bengal,136,Birbhum ,1161,168,124,46,203,17,3.5,23.6
+EAST,West Bengal,136,Nadia ,1034,146,117,55,219,15,3.9,23.4
+EAST,West Bengal,136,North Twenty Four Pargana ,1055,148,117,53,200,17,4.7,25.3
+EAST,West Bengal,136,Hugli ,1020,136,124,55,246,24,6.3,36.4
+EAST,West Bengal,136,Bankura ,997,133,114,51,209,18,4.3,27
+EAST,West Bengal,136,Puruliya ,1050,138,101,41,184,19,5.4,28.2
+EAST,West Bengal,136,Haora ,1067,153,145,73,256,29,9.1,41
+EAST,West Bengal,136,Kolkata ,921,138,139,45,220,21,7,32.9
+EAST,West Bengal,136,South Twenty Four Pargana ,1089,148,147,61,234,19,6.3,28.3
+EAST,West Bengal,136,Paschim Medinipur ,1002,137,92,50,193,15,5.9,26
+EAST,West Bengal,136,Purba Medinipur ,957,131,92,45,173,16,5.8,27.9
+EAST,West Bengal,136,Paschim Barddhaman ,1190,184,114,52,210,27,6.8,38
+EAST,West Bengal,136,Purba Barddhaman ,1088,163,125,62,231,19,6.2,30

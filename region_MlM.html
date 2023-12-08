@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<div id="doughnut-plot" style="width: 100%; height: 100%;"></div>
+
+<script>
+    $(document).ready(function() {
+        // Fetch data from the Flask API endpoints
+        $.ajax({
+            url: 'http://127.0.0.1:5000/get_data_MMl',
+            type: 'GET',
+            dataType: 'json',
+            success: function(data) {
+                // Create the doughnut plot with the fetched data
+                createDoughnutPlot(data);
+            },
+            error: function(error) {
+                console.log('Error fetching data:', error);
+            }
+        });
+    });
+
+    function createDoughnutPlot(data) {
+        // Layout options
+        var layout = {
+            title: 'Mild Men',
+            width: '100%', // Set the width to 100% of the div
+            height: '100%', // Set the height to 100% of the div
+        };
+
+        // Create the doughnut plot
+        Plotly.newPlot('doughnut-plot', [data], layout);
+
+        // Add a hover event to display tooltips
+        var doughnutPlot = document.getElementById('doughnut-plot');
+        doughnutPlot.on('plotly_hover', function(data){
+            var point = data.points[0];
+            var hoverInfo = `<b>${point.label}</b>: ${point.value}`;
+            Plotly.relayout('doughnut-plot', {'hoverinfo': hoverInfo});
+        });
+    }
+</script>
+
+</body>
+</html>

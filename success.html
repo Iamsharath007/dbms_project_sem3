@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Reports</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        form {
+            text-align: center;
+            margin: 20px;
+        }
+
+        input[type="radio"] {
+            margin: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #tableContainer {
+            max-height: 700px;
+            /* Adjust the maximum height as needed */
+            overflow-y: auto;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: white;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #4CAF50;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Health Reports</h1>
+    </header>
+
+    <form action="#" method="post" onsubmit="return false;">
+        <label>
+            <input type="radio" name="reportType" value="region" checked>
+            Region Wise Report
+        </label>
+
+        <label>
+            <input type="radio" name="reportType" value="state">
+            State Wise Report
+        </label>
+
+        <label>
+            <input type="radio" name="reportType" value="district">
+            District Wise Report
+        </label>
+
+        <br>
+
+        <!-- Removed the onclick attribute from the button -->
+        <input type="submit" value="Show Report" onclick="openReport()">
+    </form>
+
+    <!-- The tableContainer is now displayed by default -->
+    <div id="tableContainer">
+        <script>
+
+function openReport() {
+            var selectedValue = document.querySelector('input[name="reportType"]:checked').value;
+
+            // Form the URL based on the selected radio button
+            var url = "";
+            if (selectedValue === "region") {
+                url = "region_frame.html";
+            } else if (selectedValue === "state") {
+                url = "state_frame.html";
+            } else if (selectedValue === "district") {
+                url = "path/to/district_report.html";
+            }
+
+            // Open the report in a new tab
+            window.open(url, '_blank');
+        }
+            // Fetch CSV data and load the table by default
+            $.get("NFHS_5_India_Districts_Factsheet_Data.csv", function (data) {
+                loadCSVData(data);
+            });
+
+            function loadCSVData(csvData) {
+                var rows = csvData.split("\n");
+                var table = "<table><tr><th>" + rows[0].split(",").join("</th><th>") + "</th></tr>";
+
+                for (var i = 1; i < rows.length; i++) {
+                    table += "<tr><td>" + rows[i].split(",").join("</td><td>") + "</td></tr>";
+                }
+
+                table += "</table>";
+
+                // Display the table in the 'tableContainer' div
+                document.getElementById("tableContainer").innerHTML = table;
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
