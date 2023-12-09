@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>District-wise Data</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+        #form1 {
+        text-align: center;
+        margin: 20px auto; /* Updated to center the form horizontally */
+        display: block; /* Use flexbox for vertical alignment */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        width: 50%;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>District-wise Data</h1>
+    </header>
+
+    <div id="form1">
+        <label for="stateSelect">Select a State:</label>
+        <select id="stateSelect" style="margin-right: 10px;">
+            <!-- Populate this dropdown dynamically using Flask -->
+        </select>
+
+        <label for="severitySelect">Select Severity:</label>
+        <select id="severitySelect">
+            <option value="MILD">Mild</option>
+            <option value="MODERATE">Moderate</option>
+            <option value="EXTREME">Extreme</option>
+        </select>
+
+        <button id="showButton">Show</button>
+    </div>
+
+    <div id="districtCharts" style="margin-top: 20px;">
+        <!-- Display the bar charts for men and women here -->
+        <div id="menChart" style="width: 100%; display: block; margin-bottom: 30px;"></div>
+        <div id="womenChart" style="width: 100%; display: block;"></div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Populate the state dropdown dynamically using Flask
+            $.ajax({
+                url: 'http://127.0.0.1:5000/get_state_data_MMl',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var stateSelect = $('#stateSelect');
+                    $.each(data.labels, function (index, label) {
+                        stateSelect.append('<option value="' + label + '">' + label + '</option>');
+                    });
+
+                    // Trigger the initial data load
+                    updateDistrictCharts(stateSelect.val());
+                },
+                error: function (error) {
+                    console.log('Error fetching state data:', error);
+                }
+            });
+
+            // Handle state selection changes
+            var stateSelect = $('#stateSelect');
+            stateSelect.on('change', function () {
+                var selectedState = $(this).val();
+                updateDistrictCharts(selectedState);
+            });
+
+            // Handle severity selection changes
+            var severitySelect = $('#severitySelect');
+            severitySelect.on('change', function () {
+                var selectedSeverity = $(this).val();
+                var selectedState = stateSelect.val();
+                updateDistrictCharts(selectedState, selectedSeverity);
+            });
+
+            // Handle "Show" button click
+            $('#showButton').on('click', function () {
+                var selectedSeverity = $('#severitySelect').val();
+                updateDistrictCharts(stateSelect.val(), selectedSeverity);
+            });
+
+            // Function to fetch and display district-wise data
+            function updateDistrictCharts(selectedState, selectedSeverity) {
+                $.ajax({
+                    url: 'http://127.0.0.1:5000/get_district_data',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ 'state': selectedState, 'severity': selectedSeverity }),
+                    success: function (data) {
+                        console.log('Received data:', data); // Log received data
+
+                        // Normalize the values for color gradient
+                        var normalizedValues = normalizeValues(data.menValues.concat(data.womenValues));
+
+                        // Create color scale from green to red
+                        var colors = ['#008000', '#32CD32', '#ADFF2F', '#FFFF00', '#FFA500', '#FF4500', '#FF0000'];
+
+                        // Map normalized values to colors using the gradient scale
+                        var colorValues = normalizedValues.map(function (value) {
+                            var colorIndex = Math.round(value * (colors.length - 1));
+                            return colors[colorIndex];
+                        });
+
+                        // Create bar chart for men
+                        var menData = {
+                            x: data.districts,
+                            y: data.menValues,
+                            type: 'bar',
+                            name: 'Men',
+                            marker: {
+                                color: colorValues
+                            }
+                        };
+
+                        var menLayout = {
+                            title: 'District-wise Data for Men'
+                        };
+
+                        // Create bar chart for women
+                        var womenData = {
+                            x: data.districts,
+                            y: data.womenValues,
+                            type: 'bar',
+                            name: 'Women',
+                            marker: {
+                                color: colorValues
+                            }
+                        };
+
+                        var womenLayout = {
+                            title: 'District-wise Data for Women'
+                        };
+
+                        // Update the color scale based on the normalized values
+                        Plotly.newPlot('menChart', [menData], menLayout);
+                        Plotly.newPlot('womenChart', [womenData], womenLayout);
+                    },
+                    error: function (error) {
+                        console.log('Error fetching district data:', error.responseText);
+                    }
+                });
+            }
+
+            // Function to normalize values between 0 and 1
+            function normalizeValues(values) {
+                var minValue = Math.min(...values);
+                var maxValue = Math.max(...values);
+                return values.map(function (value) {
+                    return (value - minValue) / (maxValue - minValue);
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
